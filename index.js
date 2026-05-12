@@ -104,7 +104,7 @@ app.get('/status', (req, res) => {
 
 app.post('/login', (req, res) => {
   const { username, password } = req.body;
-  if (username === 'kinzxxoffc' && password === 'kinzxxoffc') {
+  if (username === 'reycloud' && password === '190327') {
     req.session.admin = { username };
     return res.json({ success: true, message: 'Login berhasil' });
   }
